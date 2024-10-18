@@ -1,0 +1,10 @@
+package Strategys;
+
+public class DescontoClienteVIPST implements DescontosStrategy {
+    @Override
+    public void calcularDesconto(Double preco) {
+        System.out.println("Tipo de cliente: VIP\n" +
+                "Desconto aplicado: 20%\n" +
+                "Total dos produtos: R$" + (preco - (preco * 0.20)));
+    }
+}

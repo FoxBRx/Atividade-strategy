@@ -1,0 +1,4 @@
+package Strategys;
+
+public interface DescontosStrategy {
+}
